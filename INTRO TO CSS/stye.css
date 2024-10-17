@@ -1,0 +1,10 @@
+body{
+background-color: black;
+}
+#P1{
+color: bisque;
+}
+/*this styles the 2nd sentence*/
+.P2{
+    color: aquamarine;
+}
