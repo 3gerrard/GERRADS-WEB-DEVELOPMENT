@@ -1,0 +1,25 @@
+.example1{
+text-decoration: underline;
+text-transform: capitalize;
+}
+.example2{
+    text-decoration: overline;
+    text-transform: lowercase;
+}
+.example3{
+    text-decoration: line-through;
+    text-transform: uppercase;
+}
+.example4{
+    text-decoration: underline overline;
+    text-transform: none;
+}
+.shadow{
+    text-shadow: 2px 2px 2px red;    
+}
+.boxshadow{
+    box-shadow: 5px 2px 2px yellow;
+}
+.indent{
+    text-indent: 50px;
+}
