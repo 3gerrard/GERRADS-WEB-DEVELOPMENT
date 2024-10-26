@@ -1,0 +1,13 @@
+body{
+    background-image: url(image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+}
+h1{
+    color: aqua;
+}
+ul > li{
+    color: peru;
+    font-weight:bold;
+}
