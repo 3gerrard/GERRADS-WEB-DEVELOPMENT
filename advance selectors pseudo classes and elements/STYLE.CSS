@@ -2,12 +2,21 @@ body{
     background-image: url(image.png);
     background-repeat: no-repeat;
     background-size: cover;
-    color:white;
 }
 h1{
     color: aqua;
 }
+a:hover{
+    color:red
+}
 ul > li{
     color: peru;
-    font-weight:bold;
+    font-weight:bol  
+}
+p::first-letter{
+    font-size: 200%;
+    color: yellow;
+    font-family: 
+}
+p::first-line{color: aqua;
 }
