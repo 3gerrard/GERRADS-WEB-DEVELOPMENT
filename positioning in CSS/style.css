@@ -1,0 +1,32 @@
+div{
+    width: 150px;
+    height: 100px;
+    margin: 20xp;
+    color: aquamarine;
+}
+.static{background-color: black;
+position: static;
+}
+.relative{
+    background-color: beige;
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+.absolute{
+    background-color: rebeccapurple;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+.fixed{
+    background-color: magenta;
+    position: fixed;
+    top: 1px;
+    right: 10px;
+}
+.sticky{
+    background-color:mediumseagreen;
+    position: sticky;
+    top: 10px;
+}
