@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<HTML>
+    <head>
+        <title>
+            arrays in js
+        </title>
+    </head>
+    <body>
+        <h1>Arrays in js</h1>
+        <p id="output"></p>
+        <p id="output2"></p>
+        <p id="output3"></p>
+             
+        <script>
+            var footballteams=["Liverpool","arsenal","chelsea","mancity","man united"];
+            document.getElementById("output").innerHTML="My Favourite team is " + footballteams[0];
+            document.getElementById("output2").innerHTML=footballteams.join("🏆⚽");
+            footballteams.pop();
+            document.getElementById("output3").innerHTML=footballteams;
+        </script>
+    </body>
+</HTML>
