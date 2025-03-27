@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<link href="https://fonts.googleapis.com/css?family=Baloo|Ubuntu" rel="stylesheet">
+
+<div id="calender-wrapper">
+    <div id="calender-title" class="disable-select flex row center-v around">
+        <div id="left" class="flex row center-vh"><span>
+                </span>
+        </div>
+        <p class="flex row center-vh"></p>
+        <div id="right" class="flex row center-vh"><span>></span></div>
+    </div>
+    <div id="days" class="flex row center-vh colorRed disable-select"></div>
+        <p>MON</p>
+        <p>TUE</p>
+        <p>WEDS</p>
+        <p>THURS</p>
+        <p>FRI</p>
+        <p>SAT</p>
+        <p>SUN</p>
+    </div>
+    <div id="calender-content" class="flex row wrap disable-select">
+    </div>
+    <div id="booking-wrapper" class="flex column center-vh">
+        <div id="booking-title" class="flex row center-vh bgColorRed">
+            <p class="flex row center-vh">DETAILS OF YOUR ENQUIRY</p>
+        </div>
+        <div id="booking-form" class="flex column center-v">
+            <div class="flex column start width-full">
+                <p>Your Name*</p>
+                <input id="form-name" class="width-full" type="text" placeholder="" />
+            </div>
+            <div class="flex column start width-full">
+                <p>Your Email*</p>
+                <input id="form-email" class="width-full" type="email" placeholder="" />
+            </div>
+            <div class="flex row center-vh width-full overflow-hidden">
+                <div class="flex column start width-3-4">
+                    <p>Your Number*</p>
+                    <input id="form-number" class="width-full" type="text" placeholder="" />
+                </div>
+                <div class="flex column start width-1-4">
+                    <p>Number of Guests*</p>
+                    <input id="form-guests" class="width-full" type="number" max="10" placeholder="" />
+                </div>
+            </div>
+            <div class="flex column start width-full">
+                <p>Enquiry Information</p>
+                <textarea id="form-enquiry" type="text"></textarea>
+            </div>
+            <div class="flex column center-vh width-full">
+                <p><i>*Required field</i></p>
+            </div>
+        </div>
+    </div>
+    <div id="calender-panel" class="flex row center-v end">
+        <div id="info" class="flex column center-vh bgColorDarkRed">
+            <div id="info-titles" class="flex row center-vh">
+                <p class="flex column center-vh">Start Date</p>
+                <p class="flex column center-vh">End Date</p>
+            </div>
+            <div class="flex row center-vh bgColorRed">
+                <p class="flex column center-vh" id="startdate"></p>
+                <p class="flex column center-vh" id="enddate"></p>
+            </div>
+        </div>
+        <div id="clear" class="flex column center-vh bgColorDarkRed">
+            <p>CLEAR SELECTION</p>
+        </div>
+    </div>
+</div>
+
+<div id="calender-buttons" class="flex row center-vh wrap">
+    <div id="make-booking" class="flex column center-vh">
+        <p>MAKE BOOKING ENQUIRY</p>
+    </div>
+</div>
+
+</html>
+Resources1× 0.5× 0.25×Rerun
