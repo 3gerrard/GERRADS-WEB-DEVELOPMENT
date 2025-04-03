@@ -1,0 +1,39 @@
+body {
+     background-color: darkgrey;
+     color:black ;
+     font-family:'Segoe UI', Tahoma,sans-serif, Verdana, sans-serif;
+}
+
+.hero{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 25px;
+    background:url("download (3).jpg") no-repeat center;
+}
+
+.hero-text {
+    flex: 1;
+}
+.hero h1{
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: goldenrod;
+}
+.hero span{
+    color: red;
+    font-family:script;
+}
+
+.btn-custom {
+    background-color:grey;
+    border: none;
+    padding: 5px 10px;
+margin-right: 10px;
+border-radius: 25px;
+font-size: 1.1 rem;
+}
+.btn-custom:hover{
+    background-color: white;
+}
